@@ -19,6 +19,6 @@ export function renderCar(car) {
     return newEl;
 }
 
-export function findById() {
-
+export function findById(id, arr) {
+    return arr.find((item) => item.id === id);
 }
