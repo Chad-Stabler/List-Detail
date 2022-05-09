@@ -78,7 +78,7 @@ header img {
 p {
     margin: var(--gutter);
 }
-  
+
 footer {
     position: fixed;
     width: 100%;
@@ -88,4 +88,29 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+
+.car img {
+    width: 90%;
+    border: solid olive 2px;
+    border-radius: 50%;
+    margin: 5px 15px;
+}
+
+.car {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: solid olive 4px;
+    border-radius: 10px;
+}
+
+a {
+    margin: 10px;
+}
+
+#cars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
