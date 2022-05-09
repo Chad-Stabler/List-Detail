@@ -18,3 +18,7 @@ export function renderCar(car) {
 
     return newEl;
 }
+
+export function findById() {
+
+}
