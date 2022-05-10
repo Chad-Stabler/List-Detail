@@ -70,6 +70,10 @@ footer {
     box-shadow: var(--shadow);
 }
 
+a {
+    color: aliceblue;
+}
+
 .carUp {
     margin: 10px;
 }
